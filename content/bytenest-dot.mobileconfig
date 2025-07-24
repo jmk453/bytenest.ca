@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2001:19f0:b002:d4b:5400:5ff:fe75:f0b8</string>
+					<string>2607:5300:201:3100::60b5</string>
+					<string>155.138.130.196</string>
+					<string>167.114.36.46</string>
+				</array>
+				<key>ServerName</key>
+				<string>dns.bytenest.ca</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use ByteNest DNS over TLS.</string>
+			<key>PayloadDisplayName</key>
+			<string>ByteNest DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>ca.bytenest.dot</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>b1241f30-0f80-47be-9016-3fcfa8d5e8b4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use ByteNest DNS over TLS.</string>
+	<key>PayloadDisplayName</key>
+	<string>ByteNest DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.bytenest.dot</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>202765c3-4026-472e-a1af-534eff06f5fd</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
